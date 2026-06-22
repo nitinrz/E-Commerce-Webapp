@@ -65,7 +65,7 @@ const Navbar = () => {
         <div className="flex flex-col text-gray-600">
           <div
             onClick={() => setVisible(false)}
-            className="flex gap-4 py-2 px-5 cursor-pointer items-center"
+            className="flex gap-4 py-4 text-xl px-1 cursor-pointer items-center"
           >
             <img src={assets.dropdown_icon} className="rotate-180 h-4" alt="" />
             <p>Back</p>
@@ -73,28 +73,28 @@ const Navbar = () => {
           <div className="flex flex-col border">
             <NavLink
               onClick={() => setVisible(false)}
-              className="border py-2 px-5"
+              className="border py-4 px-5"
               to="/"
             >
               HOME
             </NavLink>
             <NavLink
               onClick={() => setVisible(false)}
-              className="border py-2 px-5"
+              className="border py-4 px-5"
               to="/collection"
             >
               COLLECTION
             </NavLink>
             <NavLink
               onClick={() => setVisible(false)}
-              className="border py-2 px-5"
+              className="border py-4 px-5"
               to="/about"
             >
               ABOUT
             </NavLink>
             <NavLink
               onClick={() => setVisible(false)}
-              className="border py-2 px-5"
+              className="border py-4 px-5"
               to="/contact"
             >
               CONTACT

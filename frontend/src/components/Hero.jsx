@@ -8,7 +8,7 @@ const Hero = () => {
       <div className=" w-full sm:w-1/2 flex flex-col justify-center py-8 items-center">
         <div className="text-[#414141]">
           <div className=" flex items-center gap-2 ">
-            <p className="w-8 h-[2px] bg-[#414141] "></p>
+            <p className="w-8 h-0.5 bg-[#414141] "></p>
             <p className="font-medium ">OUR BESTSELLERS</p>
           </div>
           <h1 className=" prata-regular text-3xl sm:py-3 lg:text-5xl leading-relaxed">
@@ -16,7 +16,7 @@ const Hero = () => {
           </h1>
           <div className="flex items-center gap-2">
             <p className="font-medium ">SHOP NOW</p>
-            <p className=" w-8 h-[2px] bg-[#414141]"></p>
+            <p className=" w-8 h-0.5 bg-[#414141]"></p>
           </div>
         </div>
       </div>
